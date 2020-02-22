@@ -1,1 +1,13 @@
-.right {float: right;}
+.jumbotron {
+    background-size: cover;
+    background-color: #121212;
+    text-align: center;
+    min-height: 900px;
+
+  }
+
+  p,h1{
+      color: whitesmoke;
+  }
+
+
