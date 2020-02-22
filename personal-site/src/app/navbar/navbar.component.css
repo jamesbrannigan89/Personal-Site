@@ -3,6 +3,6 @@
     color: whitesmoke;
 }
 
-li{
-    color: whitesmoke;
+li,a{
+    color: whitesmoke !important;
 }

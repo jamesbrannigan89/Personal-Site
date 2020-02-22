@@ -5,6 +5,7 @@ import { AboutComponent } from './about/about.component';
 import { CollegeExperienceComponent } from './college-experience/college-experience.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 const routes: Routes = [
@@ -12,7 +13,8 @@ const routes: Routes = [
   {path:'about', component: AboutComponent},
   {path:'college-experience', component: CollegeExperienceComponent},
   {path:'portfolio', component: PortfolioComponent},
-  {path:'work-experience', component: WorkExperienceComponent}
+  {path:'work-experience', component: WorkExperienceComponent},
+  {path:'contact', component: ContactComponent}
 
 
 
