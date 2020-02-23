@@ -1,8 +1,11 @@
 .navbar-custom{
     background-color: #121212 !important;
     color: whitesmoke;
+    align-self: center
 }
 
 li,a{
     color: whitesmoke !important;
+    align-self: center
+
 }
