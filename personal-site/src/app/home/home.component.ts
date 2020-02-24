@@ -14,9 +14,10 @@ export class HomeComponent implements OnInit {
 
   information=[
     {
-      welcomeMessage:"Welcome to my Personal Site",
-      aboutSite:"I am a recent graduate in Software Development and I am looking to become a Web Developer. On this site you will find my personal projects,education and work experience",
-      imageUrl:"/assets/images/me.jpg"
+      name:'James Brannigan',
+      title:'Graduate Developer - Interested in Front end',
+      about:'About me',
     }
+
   ]
 }

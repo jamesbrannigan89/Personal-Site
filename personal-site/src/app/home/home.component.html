@@ -1,94 +1,11 @@
-<div class="jumbotron" *ngFor="let intro of information">
+<div class="box" *ngFor="let info of information">
+  <img src="/assets/images/me.jpg" class="box-img">
+  <h1>{{info.name}}</h1>
+  <h5>{{info.title}}</h5>
+  <p>{{info.about}}</p>
 
-    <h1 class="display-4">{{intro.welcomeMessage}}</h1>
-    <p class="lead">{{intro.aboutSite}}</p>
-</div>
-
-<ul class="timeline">
-    <li>
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title">Bachelor of Arts </h4>
-        </div>
-        <div class="timeline-body">
-          <p>I attended NUIG </p>
-        </div>
-      </div>
-    </li>
-
-    <li class="timeline-inverted">
-      <div class="timeline-badge primary"></div>
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title">Mocks.ie</h4>
-        </div>
-        <div class="timeline-body">
-          <p>Mocks.ie job</p>
-        </div>
-      </div>
-    </li>
-
-    <li>
-      <div class="timeline-badge primary"><i class="glyphicon glyphicon-credit-card"></i></div>
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title">university Of Limerick</h4>
-        </div>
-        <div class="timeline-body">
-          <p>Masters in Social Regeneration</p>
-        </div>
-      </div>
-    </li>
-
-    <li class="timeline-inverted">
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title">Medtronic</h4>
-        </div>
-        <div class="timeline-body">
-          <p>Production Operator</p>
-        </div>
-      </div>
-    </li>
-
-    <li>
-      <div class="timeline-badge primary"><i class="glyphicon glyphicon-floppy-disk"></i></div>
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title">Higher Diploma In software Development</h4>
-        </div>
-        <div class="timeline-body">
-          <p>GMIT </p>
-          <hr>
-        </div>
-      </div>
-    </li>
-
-    <li class="timeline-inverted">
-        <div class="timeline-badge primary"></div>
-        <div class="timeline-panel">
-          <div class="timeline-heading">
-            <h4 class="timeline-title">Technical Support</h4>
-          </div>
-          <div class="timeline-body">
-            <p>Apple</p>
-          </div>
-        </div>
-      </li>
-
-      <li class="timeline-inverted">
-        <div class="timeline-badge primary"></div>
-        <div class="timeline-panel">
-          <div class="timeline-heading">
-            <h4 class="timeline-title">Technical Support</h4>
-          </div>
-          <div class="timeline-body">
-            <p>Oracle</p>
-          </div>
-        </div>
-      </li>
-
-    
-
-  
+  <ul>
+    <li> <a href="https://github.com/jamesbrannigan89" target="_blank"> <i class="fab fa-linkedin"></i> </a> </li>
+    <li> <a href="www.linkedin.com/in/jamesbran" target="_blank"> <i class="fab fa-github"></i> </a> </li>
   </ul>
+</div>
