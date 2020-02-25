@@ -1,5 +1,13 @@
 p,li,h5,a{
-    color: whitesmoke;
+    color: white;
     font-family: arial;
+}
+
+.container{
+    margin-top: 150px;
+}
+
+#footer{
+   background-color:  rgb(42, 89, 120)
 }
 

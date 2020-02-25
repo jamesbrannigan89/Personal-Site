@@ -1,13 +1,5 @@
-.jumbotron {
-    background-size: cover;
-    background-color: #343d46;
-    text-align: center;
-   
-
-  }
-
-  p,h1,h4{
-      color: whitesmoke;
+  p,h1,h4,h5,i{
+      color: rgb(42, 89, 120);
   }
 body{
   margin: 0;
@@ -16,7 +8,7 @@ body{
 
 .box{
   width: 450px;
-  background:#343d46;
+  background:white;
   padding:40px;
   text-align: center;
   margin: auto;

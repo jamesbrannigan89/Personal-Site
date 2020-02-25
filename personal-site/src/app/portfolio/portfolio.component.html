@@ -1,1 +1,17 @@
-<p>portfolio works!</p>
+<div class="section" id="projects">
+        <div class="container cc-education" >
+                <div class="h4 text-center mb-4 title">Projects</div>
+        </div>
+</div>
+
+<div class="card-group">
+         <div class="card" *ngFor="let info of projects">
+                <img class="card-img-top" src="{{info.imageUrl}}" alt="Card image" style="width:100%">
+                
+                <div class="card-body">
+                        <h4 class="card-title">{{info.name}}</h4>
+                        <h5 class="card-text"><b>Technology :</b> {{info.technology}} </h5>
+                        <a href="{{info.pageUrl}}" class="btn btn-primary" target="blank">See Project</a>
+                </div>   
+        </div>
+</div>

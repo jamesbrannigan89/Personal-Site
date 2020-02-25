@@ -1,87 +1,53 @@
-<ul class="timeline">
-        <li>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Bachelor of Arts </h4>
-            </div>
-            <div class="timeline-body">
-              <p>I attended NUIG </p>
-            </div>
+<div class="section" id="about" *ngFor="let info of about">
+  <div class="container">
+    <div class="card" data-aos="fade-up" data-aos-offset="10">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">{{info.about}}</div>
+             <strong>{{info.name}} </strong> 
+             <p>{{info.description}}</p> 
           </div>
-        </li>
-    
-        <li class="timeline-inverted">
-          <div class="timeline-badge primary"></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Mocks.ie</h4>
-            </div>
-            <div class="timeline-body">
-              <p>Mocks.ie job</p>
-            </div>
-          </div>
-        </li>
-    
-        <li>
-          <div class="timeline-badge primary"><i class="glyphicon glyphicon-credit-card"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">university Of Limerick</h4>
-            </div>
-            <div class="timeline-body">
-              <p>Masters in Social Regeneration</p>
-            </div>
-          </div>
-        </li>
-    
-        <li class="timeline-inverted">
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Medtronic</h4>
-            </div>
-            <div class="timeline-body">
-              <p>Production Operator</p>
-            </div>
-          </div>
-        </li>
-    
-        <li>
-          <div class="timeline-badge primary"><i class="glyphicon glyphicon-floppy-disk"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Higher Diploma In software Development</h4>
-            </div>
-            <div class="timeline-body">
-              <p>GMIT </p>
-            </div>
-          </div>
-        </li>
-    
-        <li class="timeline-inverted">
-            <div class="timeline-badge primary"></div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4 class="timeline-title">Technical Support</h4>
+        </div>
+
+
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">Basic Information</div>
+            <div class="row">
+              <div class="col-sm-4">
+                <strong class="text-uppercase">Date of Birth:</strong>
               </div>
-              <div class="timeline-body">
-                <p>Apple</p>
+              <div class="col-sm-8">{{info.DOB}}</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4">
+                <strong class="text-uppercase">Email:</strong>
+              </div>
+              <div class="col-sm-8">{{info.email}}</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4">
+                <strong class="text-uppercase">Phone:</strong>
+              </div>
+              <div class="col-sm-8">{{info.phoneNumber}}</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4">
+                <strong class="text-uppercase">Address:</strong>
+              </div>
+              <div class="col-sm-8">{{info.address}}
               </div>
             </div>
-          </li>
-    
-          <li class="timeline-inverted">
-            <div class="timeline-badge primary"></div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4 class="timeline-title">Technical Support</h4>
+            <div class="row mt-3">
+              <div class="col-sm-4">
+                <strong class="text-uppercase">Language:</strong>
               </div>
-              <div class="timeline-body">
-                <p>Oracle</p>
-              </div>
+              <div class="col-sm-8">{{info.languages}}</div>
             </div>
-          </li>
-    
-        
-    
-      
-      </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

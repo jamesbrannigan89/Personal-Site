@@ -1,0 +1,17 @@
+.h4,h4,h5{
+  color: rgb(42, 89, 120);
+}
+
+img{
+  width: 75%;
+  height: 15vw;
+  object-fit: contain;
+}
+
+.card{
+  background-color:white;
+  margin: 10px 50px 20px;
+  padding: 1em;
+  height: 500px;
+  width: 500px;
+}

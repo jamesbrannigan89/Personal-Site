@@ -15,8 +15,9 @@ export class HomeComponent implements OnInit {
   information=[
     {
       name:'James Brannigan',
-      title:'Graduate Developer - Interested in Front end',
-      about:'About me',
+      title:'Graduate Developer - Interested in becoming a Front end',
+      about:'I am a recent graduate in Software Development and am currently searching for a ____ role. I have recently returned from six months travelling and am avaible immediately.',
+      pageUrl:'/about'
     }
 
   ]

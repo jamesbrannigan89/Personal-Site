@@ -1,11 +1,12 @@
 .navbar{
-    background-color: #343d46 !important;
-    color: whitesmoke;
+    background-color:rgb(42, 89, 120)!important;
+    color: white;
     align-self: center
 }
 
 li,a{
-    color: whitesmoke !important;
+    color:white !important;
     align-self: center
 
 }
+
