@@ -4,14 +4,19 @@
         </div>
 </div>
 
-<div class="card-group">
-         <div class="card" *ngFor="let info of projects">
-                <img class="card-img-top" src="{{info.imageUrl}}" alt="Card image" style="width:100%">
-                
+
+
+<div id="card">
+        <div class="row card-group">
+            <div class="col col-lg-3 col-md-8" *ngFor="let info of projects">
+              <div class="card h-100 text-center">
+                <img class="card-img-top" src={{info.imageUrl}} alt="image not available">
                 <div class="card-body">
-                        <h4 class="card-title">{{info.name}}</h4>
-                        <h5 class="card-text"><b>Technology :</b> {{info.technology}} </h5>
-                        <a href="{{info.pageUrl}}" class="btn btn-primary" target="blank">See Project</a>
-                </div>   
-        </div>
-</div>
+                  <h4 class="card-title">{{info.name}}</h4>
+                  <h6 class="card-subtitle mb-2 text-muted"> {{info.technology}}</h6>
+                  <a href="{{info.pageUrl}}" class="btn btn-primary" target="blank">See Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>

@@ -26,7 +26,7 @@ export class PortfolioComponent implements OnInit {
       name:'Travel Site From my 5 month travelling',
       technology:"Angular8,Bootstrap3,CSS,HTML,Typescript",
       description:'I created a travel site to demonstrate my web development skills and to display my photos from travelling.',
-      imageUrl:"/assets/images/personalSite.jpg",
+      imageUrl:"/assets/images/travelSite.jpg",
       pageUrl:"https://github.com/jamesbrannigan89/TravelSite",
 
     },
@@ -35,9 +35,18 @@ export class PortfolioComponent implements OnInit {
       name:'News API using Rest Api',
       technology:"Angular8,Bootstrap3,CSS,HTML,Typescript",
       description:'I created a news App calling a news API to gather news Articles',
-      imageUrl:"/assets/images/personalSite.jpg",
+      imageUrl:"/assets/images/newsSite.jpg",
       pageUrl:"https://github.com/jamesbrannigan89/news-site",
 
+    },
+    {
+      name:'Personal Site',
+      technology:"Html,CSS",
+      description:'I created a personal site using Html and CSS',
+      imageUrl:"",
+      pageUrl:"https://github.com/jamesbrannigan89/PersonalSite",
+
     }
+
   ]
 }

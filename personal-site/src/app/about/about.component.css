@@ -1,4 +1,11 @@
 .section{
   margin-top: 5%;
   color: rgb(42, 89, 120);
+  border-style: none;
+  border-color: white;
 }
+
+.card-body{
+  border-style: none;
+}
+

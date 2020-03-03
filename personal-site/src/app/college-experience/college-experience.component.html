@@ -1,1 +1,24 @@
-<p>college-experience works!</p>
+<div class="section" id="education">
+    <div class="container cc-education">
+        <div class="h4 text-center mb-4 title">Education</div>
+        <div class="card">
+            <div class="row" *ngFor="let college of experience">
+                <div class="col-md-3" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                    <div class="card-body cc-education-header">
+                        <p>{{college.duration}}</p>
+                        <div class="h5">{{college.name}}</div>
+                    </div>
+                </div>
+                <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                    <div class="card-body">
+                        <div class="h5">{{college.course}} {{college.level}}</div>
+
+                        <ul>
+                            <li> {{college.modules}}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
