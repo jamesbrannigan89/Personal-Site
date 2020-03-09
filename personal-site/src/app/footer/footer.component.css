@@ -1,13 +1,107 @@
-p,li,h5,a{
+.footer{
+    background:rgb(42, 89, 120);
     color: white;
-    font-family: arial;
+    height:300px;
+    position: relative;
 }
 
-.container{
-    margin-top: 200px;
+.footer .footer-content{
+    
+    height:300px;
+    display: flex;
 }
 
-#footer{
-   background-color:  rgb(42, 89, 120)
+.footer .footer-content .footer-section{
+    flex: 1;
+    
+    padding: 25px;
+
 }
 
+
+
+
+.footer .footer-content h1
+.footer .footer-content h1{
+color: white;
+}
+
+.footer .footer-content .about h1 span{
+    color:white;
+}
+
+.footer .footer-content .about .contact span{
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+
+}
+
+.footer .footer-content .about .socials a{
+    width: 45pc;
+    height: 41px;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    font-size: 1.3em;
+    border-radius: 5px;
+    color: white;
+    
+    transition: all .3s;
+}
+
+
+
+.footer .footer-bottom{
+    background:rgb(42, 89, 120);
+    color: white;
+    height:50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+
+}
+
+.footer .footer-content .links ul a{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: white;
+    transition: all .3s;
+}
+
+.footer .footer-content .links ul a:hover{
+    color: white;
+    margin-left: 15px;
+    transition: all .3s;
+
+}
+
+.footer .footer-content .contact-form .contact-input{
+    background: #272727;;
+    color: #bebdbd;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+    padding: .9rem 1.4rem;
+    border: none;
+
+}
+
+.footer .footer-content .contact-form .contact-input:focus{
+    background:#1a1a1a;
+}
+
+.btn-big{
+    padding: .7rem 1.3rem; 
+    line-height: 1.3rem;
+}
+
+
+
+
+i , button{
+    color: white;
+}
