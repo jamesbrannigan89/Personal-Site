@@ -25,4 +25,22 @@ export class AboutComponent implements OnInit {
       languages:"English (Native Speaker), French (Beginner)"
     }
   ]
+
+
+  cardInfo=[
+
+    {name:"Git Hub Projects",
+     urlLottie:"https://assets9.lottiefiles.com/packages/lf20_emIAZ3.json" 
+    },
+  
+    {name:"Work Experience",
+    urlLottie:"https://assets7.lottiefiles.com/packages/lf20_Hg1eiy.json"
+    }
+  
+    ,
+    {
+      name:"College Experience",
+    urlLottie:"https://assets4.lottiefiles.com/datafiles/h2aQ40qtvgA336t/data.json"
+    }
+  ]
 }

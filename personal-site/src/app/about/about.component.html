@@ -1,19 +1,26 @@
-<section id="aboutme">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-7">
-        <h2 class="text-center"> James Brannigan</h2>
-        <p>Hi my name is James Brannigan. I am 26 years old and I from Galway City. I have recently completed a Higher
-          Diploma Level 8 from GMIT in Software Development and graduated with a 2.1 in November.
-          I am currently searching for a graduate or entry level role as a support Technican or entry level developer.
-          My current aim is to become a Web Developer and to gain some industry experience.
-          I have studied the following languages in college - Java,SQL,HTML,CSS,Javascript,Angular 8 and Typescript.
-          Currently I am creating personal projects using Angular and Typsecript so I can improve on my fundamentals.
-        </p>
+<div class="container">
+  <div class="jumbotron " *ngFor="let info of about">
+    <h1 class="display-4">{{info.name}}</h1>
+    <p class="lead">{{info.intro}}</p>
+    <hr class="my-4">
+
+    <p>{{info.description}}</p>
+  </div>
+</div>
+
+
+<div class="container">
+
+  <div class="card-group">
+    <div class="card" style="width: 13rem; height:18rem;" *ngFor="let info of cardInfo">
+      <div class="card-body">
+        <h5 class="card-title">{{info.name}}</h5>
+        <lottie-player slot="end" autoplay loop src={{info.urlLottie}}  style=" height: 200px;" speed="1" loop  >
+        </lottie-player>
       </div>
     </div>
   </div>
-</section>
 
+ </div> 
 
 
