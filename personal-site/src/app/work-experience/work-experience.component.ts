@@ -11,7 +11,7 @@ export class WorkExperienceComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  experience=[
+  company=[
     {
       backGroundImage:"/assets/images/oracle.jpg ",
       title:"Technical Support",
@@ -38,8 +38,23 @@ export class WorkExperienceComponent implements OnInit {
       task3:"Responded to support requests from end users and patiently walked individuals through basic troubleshooting tasks",
       task4:"Increased sales by educating prospects on benefits of products and services in comparison to competitors",
       task5:"Configured IP addresses for hardware products",
-      task6:"Created knowledge-based articles on issues and resolution encountered",
+      task6:"Created knowledge-based articles on issues and resolution encountered"
+    },
+
+    {
+      backGroundImage:"/assets/images/medtronic.jpg ",
+      title:"Production Operator",
+      date:"August 2016 to December 2017",
+      company:"Medtronic",
+      role:" As a technical support my main roles included troubleshooting and debugging software issues for Oracles Hotel Management Software Symphony.",
+      task1:"Inspected final products for defects and flaws using proper QA procedures.",
+      task2:"Assisted engineers with the testing of the new machines via Kanban Cards.",
+      
     }
   ]
+
+  
+ 
+
 
 }

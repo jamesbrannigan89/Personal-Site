@@ -5,6 +5,7 @@
             <div class="row" *ngFor="let college of experience">
                 <div class="col-md-3" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
                     <div class="card-body cc-education-header">
+                        <img src={{college.backGroundImage}}> 
                         <p>{{college.duration}}</p>
                         <div class="h5">{{college.name}}</div>
                     </div>
@@ -14,7 +15,13 @@
                         <div class="h5">{{college.course}} {{college.level}}</div>
 
                         <ul>
-                            <li> {{college.modules}}</li>
+                            <li> {{college.module1}}</li>
+                            <li> {{college.module2}}</li>
+                            <li> {{college.module3}}</li>
+                            <li> {{college.module4}}</li>
+                            <li> {{college.module5}}</li>
+                            <li> {{college.module6}}</li>
+                            <li> {{college.module7}}</li>
                         </ul>
                     </div>
                 </div>

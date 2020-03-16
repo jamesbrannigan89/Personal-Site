@@ -1,0 +1,11 @@
+.contact-form{
+    color: white;
+    background-color: rgb(42, 89, 120);
+    margin-top: 100px;
+    padding:20px;
+    box-shadow: white;
+}
+
+hr{
+    background-color: white;
+}
