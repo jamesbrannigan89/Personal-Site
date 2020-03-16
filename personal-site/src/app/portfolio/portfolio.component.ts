@@ -15,18 +15,18 @@ export class PortfolioComponent implements OnInit {
 
   projects=[
     {
-      name:'Personal Portfolio Using Angular8 Site',
+      name:'Personal Portfolio Site',
       technology:"Angular8,Bootstrap3,CSS,HTML,Typescript",
       description:'I created a personal site to demonstrate my web development skills and to learn Angular',
-      imageUrl:"/assets/images/personalSite.jpg",
+      urlLottie:"https://assets4.lottiefiles.com/packages/lf20_xRmNN8.json",
       pageUrl:"https://github.com/jamesbrannigan89/Personal-Site",
     },
 
     {
-      name:'Travel Site From my 5 month travelling',
+      name:'Travel Site From travelling',
       technology:"Angular8,Bootstrap3,CSS,HTML,Typescript",
       description:'I created a travel site to demonstrate my web development skills and to display my photos from travelling.',
-      imageUrl:"/assets/images/travelSite.jpg",
+      urlLottie:"https://assets4.lottiefiles.com/temp/lf20_H5La5b.json",
       pageUrl:"https://github.com/jamesbrannigan89/TravelSite",
 
     },
@@ -35,7 +35,7 @@ export class PortfolioComponent implements OnInit {
       name:'News API using Rest Api',
       technology:"Angular8,Bootstrap3,CSS,HTML,Typescript",
       description:'I created a news App calling a news API to gather news Articles',
-      imageUrl:"/assets/images/newsSite.jpg",
+      urlLottie:"https://assets2.lottiefiles.com/packages/lf20_GpJLXJ.json",
       pageUrl:"https://github.com/jamesbrannigan89/news-site",
 
     },
@@ -43,7 +43,7 @@ export class PortfolioComponent implements OnInit {
       name:'Personal Site',
       technology:"Html,CSS",
       description:'I created a personal site using Html and CSS',
-      imageUrl:"",
+      urlLottie:"https://assets6.lottiefiles.com/packages/lf20_45movo.json",
       pageUrl:"https://github.com/jamesbrannigan89/PersonalSite",
 
     }

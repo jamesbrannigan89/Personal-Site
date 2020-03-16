@@ -10,13 +10,16 @@
         <div class="row card-group">
             <div class="col col-lg-3 col-md-8" *ngFor="let info of projects">
               <div class="card h-100 text-center">
-                <img class="card-img-top" src={{info.imageUrl}} alt="image not available">
+                <lottie-player slot="end" autoplay loop src={{info.urlLottie}}  style=" height: 200px;" speed="1" loop  >
+                </lottie-player>
                 <div class="card-body">
                   <h4 class="card-title">{{info.name}}</h4>
-                  <h6 class="card-subtitle mb-2 text-muted"> {{info.technology}}</h6>
+                  <h6 class="card-subtitle mb-2"> {{info.technology}}</h6>
                   <a href="{{info.pageUrl}}" class="btn btn-primary" target="blank">See Project</a>
                 </div>
               </div>
             </div>
           </div>
     </div>
+
+   

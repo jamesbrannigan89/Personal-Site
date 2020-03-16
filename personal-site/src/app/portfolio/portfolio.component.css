@@ -1,5 +1,5 @@
-.h4,h4,h6{
-  color: rgb(42, 89, 120);
+h4{
+color:white;
 }
 
 img{
@@ -11,9 +11,14 @@ img{
 #card{
   background-color:white;
   border-style: none;
-  border-color: rgb(42, 89, 120);
+  border-color: white;
   margin: 10px 50px 20px;
   padding: 1em; 
 
+}
+#card .row .col .card .card-body{
+ color: white;
+  background-color:rgb(42, 89, 120);
   
 }
+
