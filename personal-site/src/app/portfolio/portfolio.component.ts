@@ -23,7 +23,7 @@ export class PortfolioComponent implements OnInit {
     },
 
     {
-      name:'Travel Site From travelling',
+      name:'Travel Site ',
       technology:"Angular8,Bootstrap3,CSS,HTML,Typescript",
       description:'I created a travel site to demonstrate my web development skills and to display my photos from travelling.',
       urlLottie:"https://assets4.lottiefiles.com/temp/lf20_H5La5b.json",

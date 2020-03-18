@@ -14,14 +14,9 @@
                     <div class="card-body">
                         <div class="h5">{{college.course}} {{college.level}}</div>
 
-                        <ul>
-                            <li> {{college.module1}}</li>
-                            <li> {{college.module2}}</li>
-                            <li> {{college.module3}}</li>
-                            <li> {{college.module4}}</li>
-                            <li> {{college.module5}}</li>
-                            <li> {{college.module6}}</li>
-                            <li> {{college.module7}}</li>
+                        <ul >
+                            <li *ngFor="let info of college.module">{{info}} </li>
+                            
                         </ul>
                     </div>
                 </div>
