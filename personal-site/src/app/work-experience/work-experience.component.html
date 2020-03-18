@@ -16,12 +16,7 @@
                         <div class="h5">{{work.role}}</div>
 
                         <ul>
-                            <li> {{work.task1}}</li>
-                            <li> {{work.task2}}</li>
-                            <li> {{work.task3}}</li>
-                            <li> {{work.task4}}</li>
-                            <li> {{work.task5}}</li>
-                            <li> {{work.task6}}</li>
+                            <li *ngFor="let info of work.roles" > {{info}}</li>
                         </ul>
                     </div>
                 </div>
