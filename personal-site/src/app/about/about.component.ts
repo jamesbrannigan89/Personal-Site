@@ -19,10 +19,8 @@ export class AboutComponent implements OnInit {
       description: "Currently I am a recent graduate in Software Development from GMIT. I graduated in november 2019 with a level 8 degree. I have college experience with Java, Javascript,HTML,CSS and right now I am currently learning Angular.",
       name:"James Brannigan",
       DOB:"12/11/93",
-      email:"jamesbrannigan89@gmail.com",
-      phoneNumber:"+353 876218446",
-      address:" Circular Road Galway",
-      languages:"English (Native Speaker), French (Beginner)"
+     
+      
     }
   ]
 
@@ -30,17 +28,21 @@ export class AboutComponent implements OnInit {
   cardInfo=[
 
     {name:"Git Hub Projects",
-     urlLottie:"https://assets9.lottiefiles.com/packages/lf20_emIAZ3.json" 
+     urlLottie:"https://assets9.lottiefiles.com/packages/lf20_emIAZ3.json",
+     pageUrl:"https://github.com/jamesbrannigan89"
+    
     },
   
     {name:"Work Experience",
-    urlLottie:"https://assets7.lottiefiles.com/packages/lf20_Hg1eiy.json"
+    urlLottie:"https://assets7.lottiefiles.com/packages/lf20_Hg1eiy.json",
+    pageUrl:"/work-experience"
     }
   
     ,
     {
       name:"College Experience",
-    urlLottie:"https://assets4.lottiefiles.com/datafiles/h2aQ40qtvgA336t/data.json"
+    urlLottie:"https://assets4.lottiefiles.com/datafiles/h2aQ40qtvgA336t/data.json",
+    pageUrl:"/college-experience"
     }
   ]
 }

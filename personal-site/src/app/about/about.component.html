@@ -15,8 +15,10 @@
     <div class="card" style="width: 13rem; height:18rem;" *ngFor="let info of cardInfo">
       <div class="card-body">
         <h5 class="card-title">{{info.name}}</h5>
+        <a class="nav-link" href="{{info.pageUrl}}" target="_blank">
         <lottie-player slot="end" autoplay loop src={{info.urlLottie}}  style=" height: 200px;" speed="1" loop  >
         </lottie-player>
+      </a>
       </div>
     </div>
   </div>
