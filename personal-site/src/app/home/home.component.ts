@@ -29,11 +29,10 @@ export class HomeComponent implements OnInit {
       about:'I am a recent graduate in Software Development and am currently searching for a Graduate or Entry Level role. I have recently returned from six months travelling and am avaible immediately.',
       pageUrl:'/about'
     }
-
   ]
 
-  
 
  
+
 }
 
