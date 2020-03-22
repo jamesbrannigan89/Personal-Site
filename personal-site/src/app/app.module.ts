@@ -14,6 +14,8 @@ import { ContactComponent } from './contact/contact.component';
 
 import { ReactiveFormsModule } from '@angular/forms';
 import { Validators } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 
 
@@ -27,12 +29,16 @@ import { Validators } from '@angular/forms';
     CollegeExperienceComponent,
     PortfolioComponent,
     FooterComponent,
-    ContactComponent
+    ContactComponent,
+
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
+    BrowserAnimationsModule,
+    
     
   ],
   providers: [],
