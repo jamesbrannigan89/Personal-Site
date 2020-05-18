@@ -12,6 +12,22 @@ export class WorkExperienceComponent implements OnInit {
   ngOnInit(): void {
   }
   company=[
+
+    {
+
+      backGroundImage:"/assets/images/sap.jpg ",
+      title:"Cloud Success Plan Realization Operations",
+      date:"April 2020 - Present",
+      company:"SAP",
+      role:" As a technical support my main roles included troubleshooting and debugging software issues for Oracles Hotel Management Software Symphony.",
+
+      roles:[
+        
+
+      ]
+
+    },
+
     {
       backGroundImage:"/assets/images/oracle.jpg ",
       title:"Technical Support",

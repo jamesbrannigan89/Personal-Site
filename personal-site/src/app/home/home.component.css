@@ -48,7 +48,7 @@ ul{
   margin: 6px;
   list-style: none;
 }
-.box li a{
+.box li {
   color: white;
   text-decoration: none;
   font-size: 60px;
@@ -56,4 +56,8 @@ ul{
 }
 .box li a:hover{
   color: #b9b9b9;
+}
+
+.fab .fa-linkedin{
+ background-color:#0077B5!;
 }
