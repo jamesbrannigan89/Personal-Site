@@ -1,16 +1,27 @@
-.jumbotron{
-  width: 100%;
-  background-color: rgb(42, 89, 120);
-  color: white;
-  margin-top: 12%;
+#aboutMe{
+
+  width: 7%;
+  margin:0 auto;
+  color:#000000;
+  text-align:center;
+  margin-top: 5%;
+  border-bottom: 2px solid  #00A1A7	;
+  position: relative;
 }
 
-.container .card-group .card{
-  background-color: rgb(42, 89, 120);
-  color: white;
-  text-align: center;
-  margin-right: 10px;
+#summary{
+  width: 40%;
+  margin-top: 2%;
+  float: center;
+  font-family: 'Times New Roman', Times, serif
 }
 
+.box-img{
+  border-radius: 50%;
+  float: centre;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-bottom: 7%;
+}
 
 

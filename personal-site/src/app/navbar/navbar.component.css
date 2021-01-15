@@ -1,6 +1,12 @@
 .navbar{
     background-color:rgb(42, 89, 120)!important;
-    color: white;
-    align-self: center
+    
 }
 
+.navbar-brand{
+    color: white;
+}
+
+ul li a{
+    color: white;
+}

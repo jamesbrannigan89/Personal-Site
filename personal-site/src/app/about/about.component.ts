@@ -19,7 +19,8 @@ export class AboutComponent implements OnInit {
   about=[
     {
       about:"About",
-      description: "Currently I am a recent graduate in Software Development from GMIT. I graduated in november 2019 with a level 8 degree. I have college experience with Java, Javascript,HTML,CSS and right now I am currently learning Angular.",
+      line1: "Currently I am a recent graduate in Software Development from GMIT." ,
+      line2: "I graduated in november 2019 with a level 8 degree. I have college experience with Java, Javascript,HTML,CSS and right now I am currently learning Angular.",
       name:"James Brannigan",
       DOB:"12/11/93",
     }

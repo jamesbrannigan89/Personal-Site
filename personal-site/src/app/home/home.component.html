@@ -1,15 +1,22 @@
-<div class="box" *ngFor="let info of information">
-  <img src="/assets/images/me.jpg" class="box-img">
-  <h1>{{info.name}}</h1>
-  <h5>{{info.title}}</h5>
-  <p>{{info.about}}</p>
-  <p [routerLink]="[info.pageUrl]"> <strong> More About me </strong></p>
+<ng-sidebar-container>
+    <ng-sidebar [opened]="opened">
+        <p> Cotnent will go here</p>
+        <i class="fas fa-plus fa-2x" (click)="toggleSidebar()"></i>
+    </ng-sidebar>
+    <div ng-sidebar-content>
+ 
+        <i class="fas fa-plus fa-2x" (click)="toggleSidebar()"></i>
 
-  <ul>
-    <li> <a href="https://www.linkedin.com/in/jamesbran/"  target="_blank"> <i class="fab fa-linkedin" ></i> </a> </li>
-    <li> <a href="https://github.com/jamesbrannigan89" target="_blank"> <i class="fab fa-github"></i> </a> </li>
-    
-  </ul>
+
+
+    </div>
+</ng-sidebar-container>
+
+<div class="jumbotron vertical-center" *ngFor="let info of information">
+    <div class="container text-center" id="landing">
+        <img src="/assets/images/me.jpg" class="logo-image">
+        <h1>{{info.name}}</h1><br>
+        <h2>{{info.title}}</h2>
+        <p>{{info.about}}</p>
+    </div>
 </div>
-
-

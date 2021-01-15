@@ -10,6 +10,12 @@ const FileSaver = require('file-saver');
 })
 export class HomeComponent implements OnInit {
 
+  opened= false;
+
+  toggleSidebar(){
+
+    this.opened= !this.opened;
+  }
  
 
   
@@ -25,13 +31,12 @@ export class HomeComponent implements OnInit {
   information=[
     {
       name:'James Brannigan',
-      title:'Graduate Developer - Interested in becoming a Front end',
-      about:'I am a recent graduate in Software Development and am currently searching for a Graduate or Entry Level role. I have recently returned from six months travelling and am avaible immediately.',
-      pageUrl:'/about'
+      title:'Software Support',
+      about:'I am currently working as Support for SAP on their HR Management System Success Factors..',
     }
   ]
 
-
+  
  
 
 }
